@@ -8,11 +8,15 @@ This repository contains schema for representing:
 
 For use in modelling scenarios.
 
+Some examples are located in:
+
+=src/examples=
+
 * License
 Most of the project is licensed under AGPL-v-3.0-or-later.
 
 See the LICENSES folder and the SPDX metadata for more details. The project is REUSE compliant.
 
-* Author
+* Authors
 
 J.C. Mariscal-Melgar
