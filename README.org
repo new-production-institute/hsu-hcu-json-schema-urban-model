@@ -1,0 +1,18 @@
+#+title: json schemas for urban modelling
+
+* Introduction
+
+This repository contains schema for representing:
+
+- Machine processes
+
+For use in modelling scenarios.
+
+* License
+Most of the project is licensed under AGPL-v-3.0-or-later.
+
+See the LICENSES folder and the SPDX metadata for more details. The project is REUSE compliant.
+
+* Author
+
+J.C. Mariscal-Melgar
