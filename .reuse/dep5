@@ -9,6 +9,7 @@ Copyright: See individual Files
 License: See individual Files
 
 Files:
+    doc/processes-examples.ods
     res/scripts/**
 Copyright:
     J.C. Mariscal-Melgar <jcm@hsu-hh.de>
