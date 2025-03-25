@@ -1,0 +1,143 @@
+{
+  "processes": [
+    {
+      "name": "PET Bottle Processing",
+      "input": [
+        {
+          "material": "500mL PET Bottle",
+          "quantity": 2,
+          "unit": "bottles",
+          "specifications": {
+            "weight": 20,
+            "weight_unit": "g"
+          }
+        }
+      ],
+      "output": [
+        {
+          "material": "Filament",
+          "quantity": 40,
+          "unit": "g"
+        }
+      ],
+      "details": {}
+    },
+    {
+      "name": "3D Printing",
+      "input": [
+        {
+          "material": "PET Filament",
+          "quantity": 33.79,
+          "unit": "g"
+        }
+      ],
+      "output": [
+        {
+          "material": "Front case",
+          "quantity": 1,
+          "unit": "unit"
+        },
+        {
+          "material": "Back case",
+          "quantity": 1,
+          "unit": "unit"
+        },
+        {
+          "material": "Total printed units",
+          "quantity": 2,
+          "unit": "unit"
+        }
+      ],
+      "details": {
+        "used_filament": {
+          "quantity": 11.33,
+          "unit": "m"
+        },
+        "printing_time": {
+          "quantity": 94,
+          "unit": "min"
+        },
+        "power_consumption": {
+          "quantity": 0.177383333333333,
+          "unit": "kWh"
+        },
+        "unused_material": {
+          "quantity": 6.21,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Laser Cutting",
+      "input": [
+        {
+          "material": "MDF Panel",
+          "quantity": 14700,
+          "unit": "mm3"
+        }
+      ],
+      "output": [
+        {
+          "material": "Front panel",
+          "quantity": 12675,
+          "unit": "mm3"
+        },
+        {
+          "material": "Waste",
+          "quantity": 2025,
+          "unit": "mm3"
+        }
+      ],
+      "details": {
+        "power_consumption": {
+          "quantity": 0.0810833333333333,
+          "unit": "kWh"
+        }
+      }
+    },
+    {
+      "name": "Assembly",
+      "input": [
+        {
+          "material": "Front Case",
+          "quantity": 1,
+          "unit": "unit"
+        },
+        {
+          "material": "Back Case",
+          "quantity": 1,
+          "unit": "unit"
+        },
+        {
+          "material": "Front Panel",
+          "quantity": 1,
+          "unit": "unit"
+        },
+        {
+          "material": "usb to dip adapter",
+          "quantity": 1,
+          "unit": "unit"
+        },
+        {
+          "material": "self adhesive led strip",
+          "quantity": 1,
+          "unit": "unit"
+        }
+      ],
+      "output": [
+        {
+          "material": "mini lamp",
+          "quantity": 1,
+          "unit": "unit"
+        }
+      ],
+      "details": {}
+    },
+    {
+      "name": "CNC Processing",
+      "input": [],
+      "output": [],
+      "details": {}
+    }
+  ]
+}
