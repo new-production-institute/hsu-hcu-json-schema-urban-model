@@ -1,0 +1,174 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Manufacturing Process Schema",
+  "description": "A generalized schema for processes including 3D Printing, Assembly, Laser Cutting, CNC Machining, Plastic Filament Recycling, Wood processing, and Casting.",
+  "type": "object",
+  "properties": {
+    "processes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "A descriptive name for the process."
+          },
+          "process_type": {
+            "type": "string",
+            "enum": [
+              "3D Printing",
+              "Assembly",
+              "Laser Cutting",
+              "CNC Machining",
+              "Plastic Filament Recycling",
+              "Wood processing",
+              "Casting"
+            ],
+            "description": "The type of process."
+          },
+          "input": {
+            "type": "array",
+            "description": "List of input materials with their properties.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "material": {
+                  "type": "string",
+                  "description": "The name of the input material."
+                },
+                "quantity": {
+                  "type": "number",
+                  "description": "The amount of the input material."
+                },
+                "unit": {
+                  "type": "string",
+                  "description": "The unit of measurement for the quantity."
+                },
+                "specifications": {
+                  "type": "object",
+                  "description": "Any additional specifications (e.g., weight, dimensions) for the input material."
+                }
+              },
+              "required": [
+                "material",
+                "quantity",
+                "unit"
+              ]
+            }
+          },
+          "output": {
+            "type": "array",
+            "description": "List of output materials or products with their properties.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "material": {
+                  "type": "string",
+                  "description": "The name of the output material or product."
+                },
+                "quantity": {
+                  "type": "number",
+                  "description": "The amount produced."
+                },
+                "unit": {
+                  "type": "string",
+                  "description": "The unit of measurement for the quantity."
+                }
+              },
+              "required": [
+                "material",
+                "quantity",
+                "unit"
+              ]
+            }
+          },
+          "details": {
+            "type": "object",
+            "description": "Additional process-specific details such as time, power consumption, material usage, or waste. Fields can be added as needed.",
+            "properties": {
+              "time": {
+                "type": "object",
+                "properties": {
+                  "quantity": {
+                    "type": "number",
+                    "description": "Duration value."
+                  },
+                  "unit": {
+                    "type": "string",
+                    "description": "Time unit (e.g., min, sec)."
+                  }
+                },
+                "required": [
+                  "quantity",
+                  "unit"
+                ]
+              },
+              "power_consumption": {
+                "type": "object",
+                "properties": {
+                  "quantity": {
+                    "type": "number",
+                    "description": "Amount of power consumed."
+                  },
+                  "unit": {
+                    "type": "string",
+                    "description": "Power unit (e.g., kWh)."
+                  }
+                },
+                "required": [
+                  "quantity",
+                  "unit"
+                ]
+              },
+              "used_material": {
+                "type": "object",
+                "properties": {
+                  "quantity": {
+                    "type": "number",
+                    "description": "Quantity of material used (e.g., filament length for 3D printing)."
+                  },
+                  "unit": {
+                    "type": "string",
+                    "description": "Unit of measurement (e.g., m, g)."
+                  }
+                },
+                "required": [
+                  "quantity",
+                  "unit"
+                ]
+              },
+              "waste": {
+                "type": "object",
+                "properties": {
+                  "quantity": {
+                    "type": "number",
+                    "description": "Amount of material waste."
+                  },
+                  "unit": {
+                    "type": "string",
+                    "description": "Unit of measurement for waste (e.g., g, mm3)."
+                  }
+                },
+                "required": [
+                  "quantity",
+                  "unit"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "required": [
+          "name",
+          "process_type",
+          "input",
+          "output",
+          "details"
+        ]
+      }
+    }
+  },
+  "required": [
+    "processes"
+  ]
+}
