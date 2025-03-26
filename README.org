@@ -20,3 +20,16 @@ See the LICENSES folder and the SPDX metadata for more details. The project is R
 * Authors
 
 J.C. Mariscal-Melgar
+Oskar Lidtke - Orcular Scooter Data
+
+* Examples Data Based on
+
+Hock Table
+- https://gitlab.fabcity.hamburg/hardware/interfacer-osh-build-workshops/upcycling-moebelbau-holz-preciousplastic
+
+Mini Lamp
+- https://gitlab.fabcity.hamburg/hardware/modular-mini-lamp
+
+Orcular Scooter
+- https://www.orcular.org
+- https://www.orcular.org/orcuscooter
