@@ -19,8 +19,8 @@ See the LICENSES folder and the SPDX metadata for more details. The project is R
 
 * Authors
 
-J.C. Mariscal-Melgar
-Oskar Lidtke - Orcular Scooter Data
+- J.C. Mariscal-Melgar
+- Oskar Lidtke - Orcular Scooter Data
 
 * Examples Data Based on
 
