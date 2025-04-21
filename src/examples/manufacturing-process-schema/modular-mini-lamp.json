@@ -2,12 +2,15 @@
   "processes": [
     {
       "name": "PET Bottle Processing",
+      "process_type": "Plastic Filament Recycling",
       "input": [
         {
-          "material": "500mL PET Bottle",
+          "material": "PET Bottle",
           "quantity": 2,
           "unit": "bottles",
           "specifications": {
+            "volume": 500,
+            "volume_unit": "mL",
             "weight": 20,
             "weight_unit": "g"
           }
@@ -15,15 +18,33 @@
       ],
       "output": [
         {
-          "material": "Filament",
+          "material": "Recycled Filament",
           "quantity": 40,
           "unit": "g"
         }
       ],
-      "details": {}
+      "details": {
+        "time": {
+          "quantity": 30,
+          "unit": "min"
+        },
+        "power_consumption": {
+          "quantity": 0.05,
+          "unit": "kWh"
+        },
+        "used_material": {
+          "quantity": 40,
+          "unit": "g"
+        },
+        "waste": {
+          "quantity": 0,
+          "unit": "g"
+        }
+      }
     },
     {
-      "name": "3D Printing",
+      "name": "3D Printing Case",
+      "process_type": "3D Printing",
       "input": [
         {
           "material": "PET Filament",
@@ -41,19 +62,10 @@
           "material": "Back case",
           "quantity": 1,
           "unit": "unit"
-        },
-        {
-          "material": "Total printed units",
-          "quantity": 2,
-          "unit": "unit"
         }
       ],
       "details": {
-        "used_filament": {
-          "quantity": 11.33,
-          "unit": "m"
-        },
-        "printing_time": {
+        "time": {
           "quantity": 94,
           "unit": "min"
         },
@@ -61,14 +73,19 @@
           "quantity": 0.177383333333333,
           "unit": "kWh"
         },
-        "unused_material": {
+        "used_material": {
+          "quantity": 33.79,
+          "unit": "g"
+        },
+        "waste": {
           "quantity": 6.21,
           "unit": "g"
         }
       }
     },
     {
-      "name": "Laser Cutting",
+      "name": "Laser Cutting MDF",
+      "process_type": "Laser Cutting",
       "input": [
         {
           "material": "MDF Panel",
@@ -89,14 +106,27 @@
         }
       ],
       "details": {
+        "time": {
+          "quantity": 25,
+          "unit": "min"
+        },
         "power_consumption": {
           "quantity": 0.0810833333333333,
           "unit": "kWh"
+        },
+        "used_material": {
+          "quantity": 14700,
+          "unit": "mm3"
+        },
+        "waste": {
+          "quantity": 2025,
+          "unit": "mm3"
         }
       }
     },
     {
-      "name": "Assembly",
+      "name": "Assembling Mini Lamp",
+      "process_type": "Assembly",
       "input": [
         {
           "material": "Front Case",
@@ -114,30 +144,29 @@
           "unit": "unit"
         },
         {
-          "material": "usb to dip adapter",
+          "material": "USB to DIP Adapter",
           "quantity": 1,
           "unit": "unit"
         },
         {
-          "material": "self adhesive led strip",
+          "material": "Self-Adhesive LED Strip",
           "quantity": 1,
           "unit": "unit"
         }
       ],
       "output": [
         {
-          "material": "mini lamp",
+          "material": "Mini Lamp",
           "quantity": 1,
           "unit": "unit"
         }
       ],
-      "details": {}
-    },
-    {
-      "name": "CNC Processing",
-      "input": [],
-      "output": [],
-      "details": {}
+      "details": {
+        "time": {
+          "quantity": 15,
+          "unit": "min"
+        }
+      }
     }
   ]
 }

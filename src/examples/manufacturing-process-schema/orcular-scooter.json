@@ -1,0 +1,363 @@
+{
+  "processes": [
+    {
+      "name": "CNC Milling – Aluminium 3mm Sheet",
+      "process_type": "CNC Machining",
+      "input": [
+        {
+          "material": "Aluminium Sheet",
+          "quantity": 1,
+          "unit": "sheet",
+          "specifications": {
+            "thickness": "3 mm",
+            "dimensions": "155 mm × 100 mm",
+            "area_mm2": 15500
+          }
+        }
+      ],
+      "output": [
+        {
+          "material": "Milled Aluminium Parts",
+          "quantity": 3,
+          "unit": "parts"
+        }
+      ],
+      "details": {
+        "time": {
+          "quantity": 20,
+          "unit": "min"
+        },
+        "power_consumption": {
+          "quantity": 0.3,
+          "unit": "kWh"
+        },
+        "used_material": {
+          "quantity": 8764,
+          "unit": "mm²"
+        },
+        "waste": {
+          "quantity": 6736,
+          "unit": "mm²"
+        }
+      }
+    },
+    {
+      "name": "CNC Milling – Aluminium 6mm Sheet",
+      "process_type": "CNC Machining",
+      "input": [
+        {
+          "material": "Aluminium Sheet",
+          "quantity": 1,
+          "unit": "sheet",
+          "specifications": {
+            "thickness": "6 mm",
+            "dimensions": "200 mm × 110 mm",
+            "area_mm2": 22000
+          }
+        }
+      ],
+      "output": [
+        {
+          "material": "Milled Aluminium Parts",
+          "quantity": 2,
+          "unit": "parts"
+        }
+      ],
+      "details": {
+        "time": {
+          "quantity": 30,
+          "unit": "min"
+        },
+        "power_consumption": {
+          "quantity": 0.35,
+          "unit": "kWh"
+        },
+        "used_material": {
+          "quantity": 15652,
+          "unit": "mm²"
+        },
+        "waste": {
+          "quantity": 6348,
+          "unit": "mm²"
+        }
+      }
+    },
+    {
+      "name": "Recycled Plastic Sheet Production",
+      "process_type": "Plastic Filament Recycling",
+      "input": [
+        {
+          "material": "Recycled Plastic Granulate",
+          "quantity": 1,
+          "unit": "batch",
+          "specifications": {
+            "target_sheet_dimensions": "490 mm × 120 mm",
+            "thickness": "10 mm",
+            "area_mm2": 58800
+          }
+        }
+      ],
+      "output": [
+        {
+          "material": "Recycled Plastic Sheet",
+          "quantity": 1,
+          "unit": "sheet"
+        }
+      ],
+      "details": {
+        "time": {
+          "quantity": 20,
+          "unit": "min"
+        },
+        "power_consumption": {
+          "quantity": 0.2,
+          "unit": "kWh"
+        }
+      }
+    },
+    {
+      "name": "CNC Milling – Recycled Plastic Sheet",
+      "process_type": "CNC Machining",
+      "input": [
+        {
+          "material": "Recycled Plastic Sheet",
+          "quantity": 1,
+          "unit": "sheet",
+          "specifications": {
+            "dimensions": "490 mm × 120 mm",
+            "thickness": "10 mm",
+            "area_mm2": 58800
+          }
+        }
+      ],
+      "output": [
+        {
+          "material": "Milled Plastic Part",
+          "quantity": 1,
+          "unit": "part"
+        }
+      ],
+      "details": {
+        "time": {
+          "quantity": 20,
+          "unit": "min"
+        },
+        "power_consumption": {
+          "quantity": 0.4,
+          "unit": "kWh"
+        },
+        "used_material": {
+          "quantity": 40640,
+          "unit": "mm²"
+        },
+        "waste": {
+          "quantity": 18160,
+          "unit": "mm²"
+        }
+      }
+    },
+    {
+      "name": "3D Printing of Parts",
+      "process_type": "3D Printing",
+      "input": [
+        {
+          "material": "PLA/PETG Filament",
+          "quantity": 43,
+          "unit": "g"
+        }
+      ],
+      "output": [
+        {
+          "material": "3D Printed Parts",
+          "quantity": 15,
+          "unit": "parts"
+        }
+      ],
+      "details": {
+        "time": {
+          "quantity": 196,
+          "unit": "min"
+        },
+        "power_consumption": {
+          "quantity": 0.33,
+          "unit": "kWh"
+        },
+        "used_material": {
+          "quantity": 43,
+          "unit": "g"
+        },
+        "waste": {
+          "quantity": 0,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Sawing – Aluminium Square Tube (80×40 mm)",
+      "process_type": "CNC Machining",
+      "input": [
+        {
+          "material": "Aluminium Square Tube Blank",
+          "quantity": 1,
+          "unit": "piece",
+          "specifications": {
+            "profile": "80 × 40 mm",
+            "cut_length": "120 mm"
+          }
+        }
+      ],
+      "output": [
+        {
+          "material": "Sawed Aluminium Tube Part",
+          "quantity": 1,
+          "unit": "part"
+        }
+      ],
+      "details": {
+        "time": {
+          "quantity": 0.5,
+          "unit": "min"
+        },
+        "power_consumption": {
+          "quantity": 0.05,
+          "unit": "kWh"
+        }
+      }
+    },
+    {
+      "name": "Sawing – Aluminium Square Tube (40×40 mm)",
+      "process_type": "CNC Machining",
+      "input": [
+        {
+          "material": "Aluminium Square Tube Blank",
+          "quantity": 1,
+          "unit": "piece",
+          "specifications": {
+            "profile": "40 × 40 mm",
+            "cut_length": "318 mm"
+          }
+        }
+      ],
+      "output": [
+        {
+          "material": "Sawed Aluminium Tube Part",
+          "quantity": 1,
+          "unit": "part"
+        }
+      ],
+      "details": {
+        "time": {
+          "quantity": 1,
+          "unit": "min"
+        },
+        "power_consumption": {
+          "quantity": 0.05,
+          "unit": "kWh"
+        }
+      }
+    },
+    {
+      "name": "Sawing – Aluminium Square Tube (25×25 mm Long)",
+      "process_type": "CNC Machining",
+      "input": [
+        {
+          "material": "Aluminium Square Tube Blank",
+          "quantity": 1,
+          "unit": "piece",
+          "specifications": {
+            "profile": "25 × 25 mm",
+            "cut_length": "367 mm"
+          }
+        }
+      ],
+      "output": [
+        {
+          "material": "Sawed Aluminium Tube Part",
+          "quantity": 1,
+          "unit": "part"
+        }
+      ],
+      "details": {
+        "time": {
+          "quantity": 1.5,
+          "unit": "min"
+        },
+        "power_consumption": {
+          "quantity": 0.05,
+          "unit": "kWh"
+        }
+      }
+    },
+    {
+      "name": "Sawing – Aluminium Square Tube (25×25 mm Short)",
+      "process_type": "CNC Machining",
+      "input": [
+        {
+          "material": "Aluminium Square Tube Blank",
+          "quantity": 1,
+          "unit": "piece",
+          "specifications": {
+            "profile": "25 × 25 mm",
+            "cut_length": "112 mm"
+          }
+        }
+      ],
+      "output": [
+        {
+          "material": "Sawed Aluminium Tube Part",
+          "quantity": 1,
+          "unit": "part"
+        }
+      ],
+      "details": {
+        "time": {
+          "quantity": 0.5,
+          "unit": "min"
+        },
+        "power_consumption": {
+          "quantity": 0.05,
+          "unit": "kWh"
+        }
+      }
+    },
+    {
+      "name": "Scooter Kit Assembly",
+      "process_type": "Assembly",
+      "input": [
+        {
+          "material": "Manufactured & Purchased Components",
+          "quantity": 1,
+          "unit": "unit",
+          "specifications": {
+            "components": [
+              "CNC milled parts",
+              "3D printed parts",
+              "sawed aluminium tubes",
+              "screws",
+              "nuts",
+              "wheels",
+              "handles"
+            ]
+          }
+        }
+      ],
+      "output": [
+        {
+          "material": "Scooter Kit",
+          "quantity": 1,
+          "unit": "unit"
+        }
+      ],
+      "details": {
+        "time": {
+          "quantity": 60,
+          "unit": "min"
+        },
+        "power_consumption": {
+          "quantity": 0.1,
+          "unit": "kWh"
+        }
+      }
+    }
+  ]
+}
