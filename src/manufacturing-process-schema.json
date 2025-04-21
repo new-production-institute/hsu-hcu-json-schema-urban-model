@@ -32,6 +32,10 @@
             "items": {
               "type": "object",
               "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "The name of the input."
+                },
                 "material": {
                   "type": "string",
                   "description": "The name of the input material."
@@ -50,6 +54,7 @@
                 }
               },
               "required": [
+		"name",
                 "material",
                 "quantity",
                 "unit"
@@ -62,6 +67,10 @@
             "items": {
               "type": "object",
               "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "The name of the output"
+                },
                 "material": {
                   "type": "string",
                   "description": "The name of the output material or product."
@@ -76,6 +85,7 @@
                 }
               },
               "required": [
+		"name",
                 "material",
                 "quantity",
                 "unit"

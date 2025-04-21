@@ -5,6 +5,7 @@
       "process_type": "CNC Machining",
       "input": [
         {
+          "name": "Raw Aluminium 3mm Sheet",
           "material": "Aluminium Sheet",
           "quantity": 1,
           "unit": "sheet",
@@ -17,6 +18,7 @@
       ],
       "output": [
         {
+          "name": "Milled Aluminium Parts",
           "material": "Milled Aluminium Parts",
           "quantity": 3,
           "unit": "parts"
@@ -46,6 +48,7 @@
       "process_type": "CNC Machining",
       "input": [
         {
+          "name": "Raw Aluminium 6mm Sheet",
           "material": "Aluminium Sheet",
           "quantity": 1,
           "unit": "sheet",
@@ -58,6 +61,7 @@
       ],
       "output": [
         {
+          "name": "Milled Aluminium Parts",
           "material": "Milled Aluminium Parts",
           "quantity": 2,
           "unit": "parts"
@@ -87,6 +91,7 @@
       "process_type": "Plastic Filament Recycling",
       "input": [
         {
+          "name": "Recycled Plastic Granulate Batch",
           "material": "Recycled Plastic Granulate",
           "quantity": 1,
           "unit": "batch",
@@ -99,6 +104,7 @@
       ],
       "output": [
         {
+          "name": "Recycled Plastic Sheet",
           "material": "Recycled Plastic Sheet",
           "quantity": 1,
           "unit": "sheet"
@@ -120,6 +126,7 @@
       "process_type": "CNC Machining",
       "input": [
         {
+          "name": "Recycled Plastic Sheet",
           "material": "Recycled Plastic Sheet",
           "quantity": 1,
           "unit": "sheet",
@@ -132,6 +139,7 @@
       ],
       "output": [
         {
+          "name": "Milled Plastic Part",
           "material": "Milled Plastic Part",
           "quantity": 1,
           "unit": "part"
@@ -161,6 +169,7 @@
       "process_type": "3D Printing",
       "input": [
         {
+          "name": "PLA/PETG Filament Spool",
           "material": "PLA/PETG Filament",
           "quantity": 43,
           "unit": "g"
@@ -168,6 +177,7 @@
       ],
       "output": [
         {
+          "name": "3D Printed Parts",
           "material": "3D Printed Parts",
           "quantity": 15,
           "unit": "parts"
@@ -197,6 +207,7 @@
       "process_type": "CNC Machining",
       "input": [
         {
+          "name": "Aluminium Square Tube Blank (80×40 mm)",
           "material": "Aluminium Square Tube Blank",
           "quantity": 1,
           "unit": "piece",
@@ -208,6 +219,7 @@
       ],
       "output": [
         {
+          "name": "Sawed Aluminium Tube Part",
           "material": "Sawed Aluminium Tube Part",
           "quantity": 1,
           "unit": "part"
@@ -229,6 +241,7 @@
       "process_type": "CNC Machining",
       "input": [
         {
+          "name": "Aluminium Square Tube Blank (40×40 mm)",
           "material": "Aluminium Square Tube Blank",
           "quantity": 1,
           "unit": "piece",
@@ -240,6 +253,7 @@
       ],
       "output": [
         {
+          "name": "Sawed Aluminium Tube Part",
           "material": "Sawed Aluminium Tube Part",
           "quantity": 1,
           "unit": "part"
@@ -261,6 +275,7 @@
       "process_type": "CNC Machining",
       "input": [
         {
+          "name": "Aluminium Square Tube Blank (25×25 mm, Long)",
           "material": "Aluminium Square Tube Blank",
           "quantity": 1,
           "unit": "piece",
@@ -272,6 +287,7 @@
       ],
       "output": [
         {
+          "name": "Sawed Aluminium Tube Part",
           "material": "Sawed Aluminium Tube Part",
           "quantity": 1,
           "unit": "part"
@@ -293,6 +309,7 @@
       "process_type": "CNC Machining",
       "input": [
         {
+          "name": "Aluminium Square Tube Blank (25×25 mm, Short)",
           "material": "Aluminium Square Tube Blank",
           "quantity": 1,
           "unit": "piece",
@@ -304,6 +321,7 @@
       ],
       "output": [
         {
+          "name": "Sawed Aluminium Tube Part",
           "material": "Sawed Aluminium Tube Part",
           "quantity": 1,
           "unit": "part"
@@ -325,6 +343,7 @@
       "process_type": "Assembly",
       "input": [
         {
+          "name": "Scooter Kit Components",
           "material": "Manufactured & Purchased Components",
           "quantity": 1,
           "unit": "unit",
@@ -343,6 +362,7 @@
       ],
       "output": [
         {
+          "name": "Scooter Kit",
           "material": "Scooter Kit",
           "quantity": 1,
           "unit": "unit"

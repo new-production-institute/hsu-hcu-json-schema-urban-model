@@ -5,6 +5,7 @@
       "process_type": "Plastic Filament Recycling",
       "input": [
         {
+          "name": "PET Bottle (500mL, 20g)",
           "material": "PET Bottle",
           "quantity": 2,
           "unit": "bottles",
@@ -18,6 +19,7 @@
       ],
       "output": [
         {
+          "name": "Recycled Filament",
           "material": "Recycled Filament",
           "quantity": 40,
           "unit": "g"
@@ -47,6 +49,7 @@
       "process_type": "3D Printing",
       "input": [
         {
+          "name": "PET Filament",
           "material": "PET Filament",
           "quantity": 33.79,
           "unit": "g"
@@ -54,11 +57,13 @@
       ],
       "output": [
         {
+          "name": "Front case",
           "material": "Front case",
           "quantity": 1,
           "unit": "unit"
         },
         {
+          "name": "Back case",
           "material": "Back case",
           "quantity": 1,
           "unit": "unit"
@@ -88,6 +93,7 @@
       "process_type": "Laser Cutting",
       "input": [
         {
+          "name": "MDF Panel",
           "material": "MDF Panel",
           "quantity": 14700,
           "unit": "mm3"
@@ -95,11 +101,13 @@
       ],
       "output": [
         {
+          "name": "Front panel",
           "material": "Front panel",
           "quantity": 12675,
           "unit": "mm3"
         },
         {
+          "name": "Waste",
           "material": "Waste",
           "quantity": 2025,
           "unit": "mm3"
@@ -129,26 +137,31 @@
       "process_type": "Assembly",
       "input": [
         {
+          "name": "Front Case",
           "material": "Front Case",
           "quantity": 1,
           "unit": "unit"
         },
         {
+          "name": "Back Case",
           "material": "Back Case",
           "quantity": 1,
           "unit": "unit"
         },
         {
+          "name": "Front Panel",
           "material": "Front Panel",
           "quantity": 1,
           "unit": "unit"
         },
         {
+          "name": "USB to DIP Adapter",
           "material": "USB to DIP Adapter",
           "quantity": 1,
           "unit": "unit"
         },
         {
+          "name": "Self‑Adhesive LED Strip",
           "material": "Self-Adhesive LED Strip",
           "quantity": 1,
           "unit": "unit"
@@ -156,6 +169,7 @@
       ],
       "output": [
         {
+          "name": "Mini Lamp",
           "material": "Mini Lamp",
           "quantity": 1,
           "unit": "unit"
