@@ -20,7 +20,11 @@ See the LICENSES folder and the SPDX metadata for more details. The project is R
 * Authors
 
 - J.C. Mariscal-Melgar
+
+* Contributors
+
 - Oskar Lidtke - Orcular Scooter Data
+- Michel Langhammer - Open Lab Microfactory Data
 
 * Examples Data Based on
 
