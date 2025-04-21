@@ -5,15 +5,15 @@
       "process_type": "Plastic Filament Recycling",
       "input": [
         {
-          "name": "PET Bottle (500mL, 20g)",
+          "name": "PET Bottle",
           "material": "PET Bottle",
-          "quantity": 2,
-          "unit": "bottles",
+          "quantity": 40,
+          "unit": "g",
           "specifications": {
-            "volume": 500,
-            "volume_unit": "mL",
-            "weight": 20,
-            "weight_unit": "g"
+            "weight": 40,
+            "weight_unit": "g",
+            "original_volume": 1000,
+            "volume_unit": "mL"
           }
         }
       ],
@@ -52,21 +52,27 @@
           "name": "PET Filament",
           "material": "PET Filament",
           "quantity": 33.79,
-          "unit": "g"
+          "unit": "g",
+          "specifications": {
+            "weight": 33.79,
+            "weight_unit": "g",
+            "diameter": 1.75,
+            "diameter_unit": "mm"
+          }
         }
       ],
       "output": [
         {
           "name": "Front case",
           "material": "Front case",
-          "quantity": 1,
-          "unit": "unit"
+          "quantity": 13.79,
+          "unit": "g"
         },
         {
           "name": "Back case",
           "material": "Back case",
-          "quantity": 1,
-          "unit": "unit"
+          "quantity": 13.79,
+          "unit": "g"
         }
       ],
       "details": {
@@ -96,7 +102,13 @@
           "name": "MDF Panel",
           "material": "MDF Panel",
           "quantity": 14700,
-          "unit": "mm3"
+          "unit": "mm3",
+          "specifications": {
+            "volume": 14700,
+            "volume_unit": "mm3",
+            "thickness": 3,
+            "thickness_unit": "mm"
+          }
         }
       ],
       "output": [
@@ -138,41 +150,67 @@
       "input": [
         {
           "name": "Front Case",
-          "material": "Front Case",
-          "quantity": 1,
-          "unit": "unit"
+          "material": "PET Filament",
+          "quantity": 13635,
+          "unit": "mm3",
+          "specifications": {
+            "volume": 13635,
+            "volume_unit": "mm3"
+          }
         },
         {
           "name": "Back Case",
-          "material": "Back Case",
-          "quantity": 1,
-          "unit": "unit"
+          "material": "PET Filament",
+          "quantity": 13635,
+          "unit": "mm3",
+          "specifications": {
+            "volume": 13635,
+            "volume_unit": "mm3"
+          }
         },
         {
           "name": "Front Panel",
-          "material": "Front Panel",
-          "quantity": 1,
-          "unit": "unit"
+          "material": "MDF Panel",
+          "quantity": 12675,
+          "unit": "mm3",
+          "specifications": {
+            "volume": 12675,
+            "volume_unit": "mm3"
+          }
         },
         {
           "name": "USB to DIP Adapter",
-          "material": "USB to DIP Adapter",
-          "quantity": 1,
-          "unit": "unit"
+          "material": "FR4 PCB",
+          "quantity": 320,
+          "unit": "mm3",
+          "specifications": {
+            "volume": 320,
+            "volume_unit": "mm3",
+            "dimensions": "20×10×1.6",
+            "dimensions_unit": "mm"
+          }
         },
         {
           "name": "Self‑Adhesive LED Strip",
-          "material": "Self-Adhesive LED Strip",
-          "quantity": 1,
-          "unit": "unit"
+          "material": "LED Strip",
+          "quantity": 10000,
+          "unit": "mm3",
+          "specifications": {
+            "volume": 10000,
+            "volume_unit": "mm3",
+            "length": 500,
+            "length_unit": "mm",
+            "cross_section": "10×2",
+            "cross_section_unit": "mm"
+          }
         }
       ],
       "output": [
         {
           "name": "Mini Lamp",
           "material": "Mini Lamp",
-          "quantity": 1,
-          "unit": "unit"
+          "quantity": 50265,
+          "unit": "mm3"
         }
       ],
       "details": {
