@@ -12,7 +12,17 @@ Some examples are located in:
 
 =src/examples=
 
+* Modelling with the Urban Model Builder
+
+One of the datasets (Mini Lamp) in this repository was used to model FabCity
+microfactories using an Urban Model Builder by the City Science Lab with the
+support from Rico Herzog
+
+Workshop was hosted on the 26th of June 2025. Slides available here:
+  - [[./doc/workshops/2025-06-26-FabCity-Workshop-Rico-Herzog.pdf][FabCity Hamburg Workshop 1]]
+
 * License
+
 Most of the project is licensed under AGPL-v-3.0-or-later.
 
 See the LICENSES folder and the SPDX metadata for more details. The project is REUSE compliant.
@@ -23,6 +33,7 @@ See the LICENSES folder and the SPDX metadata for more details. The project is R
 
 * Contributors
 
+- Rico Herzog
 - Oskar Lidtke - Orcular Scooter Data
 - Michel Langhammer - Open Lab Microfactory Data
 
