@@ -33,7 +33,7 @@ See the LICENSES folder and the SPDX metadata for more details. The project is R
 
 * Contributors
 
-- Rico Herzog
+- Rico Herzog - Workshop slides, fabcity microfactory model draft
 - Oskar Lidtke - Orcular Scooter Data
 - Michel Langhammer - Open Lab Microfactory Data
 
